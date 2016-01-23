@@ -1,36 +1,56 @@
-/*General CSS*/
-#navbar{
-	opacity: 1;
-	border-bottom: none;
-}
-
 .myNavbar{
 	color: white;
 	opacity: 1;
 }
 
-
 body{
 	margin: 0px 0px 0px 0px;
 }
 
+.navbar{
+    box-shadow: 0px 2px 0px #888888;	
+	opacity: .9;
+	border-bottom: none;
+}
 
 
 /*Home Specific CSS*/
 #homeJumbo{
 	height: 100vh;
+	width: 100vw;
 	margin: 0px 0px 0px 0px;
-	background-image: url(https://lh3.googleusercontent.com/-l1Z6qkVYGCs/VqMLR_ftXAI/AAAAAAAAAME/mkvOTY0N230/s720-Ic42/mountains-863474.jpg);
-	background-size: 100%;
-  	-webkit-filter: sepia(1);
-  	filter: sepia(1);
+	overflow: hidden;	
+  	-webkit-filter: sepia(1) blur(5px);
+  	filter: sepia(1) blur(5px);
+  	-moz-filter: sepia(1) blur(5px);
+  	-o-filter: sepia(1) blur(5px);
+ 	-ms-filter: sepia(1) blur(5px);
 }
 
-.informationcard{
+#piccard{
+	height: 110vh;
+	width: 110vw;
+    margin: -15px -15px -15px -15px;	
+}
+
+#namecard{
 	position: fixed;
-	width: 33vw;
-	height: 33vh;
-	left: 33vw;
-	top: 33vh;
-  	background: rgba(0,0,0,0.1);
+	top: 75vh;
+	left: 25vw;
+	width: 50vw;
+	text-align: center;
+}
+
+#APS{
+	color: lightgray;
+	margin-bottom: 0px;
+  	font: 400 25px/1.3 'Arizonia', Helvetica, sans-serif;
+  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+#name{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: lightgray;
+	font-size: 100px;
 }
