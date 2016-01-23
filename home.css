@@ -1,0 +1,36 @@
+/*General CSS*/
+#navbar{
+	opacity: 1;
+	border-bottom: none;
+}
+
+.myNavbar{
+	color: white;
+	opacity: 1;
+}
+
+
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+/*Home Specific CSS*/
+#homeJumbo{
+	height: 100vh;
+	margin: 0px 0px 0px 0px;
+	background-image: url(https://lh3.googleusercontent.com/-l1Z6qkVYGCs/VqMLR_ftXAI/AAAAAAAAAME/mkvOTY0N230/s720-Ic42/mountains-863474.jpg);
+	background-size: 100%;
+  	-webkit-filter: sepia(1);
+  	filter: sepia(1);
+}
+
+.informationcard{
+	position: fixed;
+	width: 33vw;
+	height: 33vh;
+	left: 33vw;
+	top: 33vh;
+  	background: rgba(0,0,0,0.1);
+}
